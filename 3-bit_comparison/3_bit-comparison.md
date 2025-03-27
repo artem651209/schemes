@@ -1,4 +1,4 @@
-Compares A and B
+Compares 3-bit A and B
 
 EQ = (A2 ⊙ B2) ∧ (A1 ⊙ B1) ∧ (A0 ⊙ B0)
 
