@@ -1,2 +1,2 @@
 Set reset logic with NOR
-!()[rs_trigger.gif]
+![trigger_gif](rs_trigger.gif)
