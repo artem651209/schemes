@@ -153,22 +153,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,200)" to="(290,200)"/>
     <wire from="(770,180)" to="(850,180)"/>
     <wire from="(670,140)" to="(680,140)"/>
-    <comp lib="1" loc="(360,230)" name="NOT Gate">
-      <a name="size" val="20"/>
+    <comp lib="0" loc="(190,180)" name="Splitter">
+      <a name="appear" val="center"/>
     </comp>
-    <comp lib="0" loc="(610,340)" name="Probe">
-      <a name="facing" val="north"/>
+    <comp lib="1" loc="(400,200)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(400,240)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(620,240)" name="Clock"/>
-    <comp lib="1" loc="(400,200)" name="AND Gate">
+    <comp lib="1" loc="(610,160)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(800,260)" name="NOT Gate">
+    <comp lib="1" loc="(280,260)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(320,190)" name="AND Gate">
@@ -176,7 +176,35 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
       <a name="label" val="R"/>
     </comp>
+    <comp lib="1" loc="(320,250)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="S"/>
+    </comp>
+    <comp lib="1" loc="(920,190)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(620,240)" name="Clock"/>
     <comp lib="1" loc="(540,190)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(610,340)" name="Probe">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(800,260)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(900,140)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(840,250)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(820,200)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -184,29 +212,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="2"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(840,300)" name="AND Gate">
+    <comp lib="1" loc="(400,80)" name="XOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(920,290)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(670,140)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(900,140)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(540,130)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,180)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(840,250)" name="AND Gate">
+    <comp lib="1" loc="(610,190)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -215,45 +225,35 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
       <a name="label" val="T"/>
     </comp>
-    <comp lib="1" loc="(610,160)" name="OR Gate">
+    <comp lib="1" loc="(900,240)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(190,180)" name="Splitter">
-      <a name="appear" val="center"/>
+    <comp lib="1" loc="(670,140)" name="NOT Gate">
+      <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(320,250)" name="AND Gate">
+    <comp lib="1" loc="(840,300)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-      <a name="label" val="S"/>
+    </comp>
+    <comp lib="1" loc="(540,130)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(360,230)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(460,70)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(280,180)" name="NOT Gate">
+      <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(820,150)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(460,70)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(400,80)" name="XOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(820,200)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(900,240)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(610,190)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,260)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(920,190)" name="NOR Gate">
+    <comp lib="1" loc="(920,290)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
